@@ -8,7 +8,7 @@ SDIR=src
 
 CFLAGS=-Wall -g -I./$(SDIR)/include
 
-TARGET=nccolacs
+TARGET=ncdms
 
 #obtain source files
 

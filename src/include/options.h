@@ -1,7 +1,7 @@
 #ifndef OPTIONS_H_
 #define OPTIONS_H_
 
-#define DEBUG false
+#define DEBUG 0
 #define STR_SIZE 128
 
 #define ENTER 13
