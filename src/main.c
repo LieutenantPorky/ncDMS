@@ -12,9 +12,9 @@ int main(int argc, char *argv[]) {
 
 // Init and finish functions
 static void init() {
-  (void)signal(SIGINT, finish); /* arrange interrupts to terminate */
 
-  (void)initscr(); /* initialize the curses library */
+  (void)signal(SIGINT, finish); /* arrange interrupts to terminate */
+  (void)initscr();              /* initialize the curses library */
   /* keypad(stdscr, true); /\* enable keyboard mapping *\/ */
   (void)nonl();   /* tell curses not to do NL->CR/NL on output */
   (void)cbreak(); /* take input chars one at a time, no wait for \n */
