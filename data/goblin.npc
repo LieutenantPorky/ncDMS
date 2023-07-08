@@ -1,0 +1,5 @@
+name=goblin
+type=npc
+hp=10
+xp=25
+attributes=12,12,10,6,8,6

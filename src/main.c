@@ -1,4 +1,6 @@
 #include "main.h"
+#include "dms_npc.h"
+#include "parse_npc.h"
 
 int main(int argc, char *argv[]) {
 
@@ -6,6 +8,9 @@ int main(int argc, char *argv[]) {
     init();
   }
   if (DEBUG) {
+    dms_npc *goblin = dms_npc_new();
+    dms_npc_apply_cfg_line("name=goblin", goblin);
+
     return 1;
   }
 }
