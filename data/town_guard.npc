@@ -1,0 +1,6 @@
+name=town guard
+type=npc
+hp=15
+xp=25
+AC=14
+attributes=14,12,10,10,12,10

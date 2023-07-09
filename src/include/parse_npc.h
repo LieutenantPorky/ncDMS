@@ -8,7 +8,6 @@
 #include <sys/types.h>
 
 dms_npc *dms_npc_from_stream(FILE *restrict stream);
-
-int dms_npc_apply_cfg_line(char *line, dms_npc *npc);
+dms_npc_array *dms_npc_array_from_path(char *restrict filepath);
 
 #endif // PARSE_NPC_H_
