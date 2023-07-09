@@ -7,11 +7,56 @@
       "-I./src/include",
       "-c",
       "-o",
+      "obj/dms_npc.o",
+      "src/dms_npc.c"
+    ],
+    "directory": "/home/jacopo/games/DnD/ncDMS",
+    "file": "/home/jacopo/games/DnD/ncDMS/src/dms_npc.c",
+    "output": "/home/jacopo/games/DnD/ncDMS/obj/dms_npc.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-g",
+      "-I./src/include",
+      "-c",
+      "-o",
+      "obj/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/jacopo/games/DnD/ncDMS",
+    "file": "/home/jacopo/games/DnD/ncDMS/src/main.c",
+    "output": "/home/jacopo/games/DnD/ncDMS/obj/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-g",
+      "-I./src/include",
+      "-c",
+      "-o",
       "obj/parse_npc.o",
       "src/parse_npc.c"
     ],
     "directory": "/home/jacopo/games/DnD/ncDMS",
     "file": "/home/jacopo/games/DnD/ncDMS/src/parse_npc.c",
     "output": "/home/jacopo/games/DnD/ncDMS/obj/parse_npc.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-g",
+      "-I./src/include",
+      "-c",
+      "-o",
+      "obj/windows.o",
+      "src/windows.c"
+    ],
+    "directory": "/home/jacopo/games/DnD/ncDMS",
+    "file": "/home/jacopo/games/DnD/ncDMS/src/windows.c",
+    "output": "/home/jacopo/games/DnD/ncDMS/obj/windows.o"
   }
 ]

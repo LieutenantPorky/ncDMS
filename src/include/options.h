@@ -3,7 +3,7 @@
 
 #define STR_IMPL_(x) #x // stringify argument
 #define STR(x) STR_IMPL_(x)
-#define DEBUG 1
+#define DEBUG 0
 #define STR_SIZE 128
 #define STR_SIZE_LONG 512
 
